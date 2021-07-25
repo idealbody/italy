@@ -1,0 +1,36 @@
+/**
+ * IDEALIAGroup srl
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.idealiagroup.com/magento-ext-license.html
+ *
+ * @category   IG
+ * @package    IG_Forms
+ * @copyright  Copyright (c) 2010-2011 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license    http://www.idealiagroup.com/magento-ext-license.html
+ */
+
+.ig-forms-form-overlay {
+	background: #000000 url(../images/ajax-loader_1.gif) center center no-repeat;
+	position: absolute;
+	opacity: .8;
+	display: none;
+	z-index: 99999;
+}
+
+.ig-forms-note {
+	font-size: 11px;
+}
+
+.ig-forms-tooltip {
+	border: 1px solid #cccccc;
+	background: #f5f5f5;
+	padding: 10px;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+}

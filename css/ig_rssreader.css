@@ -1,0 +1,68 @@
+/**
+ * IDEALIAGroup srl
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the EULA
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://www.idealiagroup.com/magento-ext-license.html
+ *
+ * @category   IG
+ * @package    IG_RssReader
+ * @copyright  Copyright (c) 2010-2011 IDEALIAGroup srl (http://www.idealiagroup.com)
+ * @license    http://www.idealiagroup.com/magento-ext-license.html
+ */
+
+.block-rssreader {
+	padding: 0 0 10px 0;
+}
+
+.block-rssreader .block-title {
+	background: url("../images/bg_header_blue.gif") repeat-x scroll 0 0 #00458C;
+    height: 20px;
+    padding: 8px 10px;
+}
+
+.block-rssreader .block-title strong span {
+    /*background-image: url("../images/i_block-rss.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    padding-left: 21px;*/
+   	color: #FFFFFF;
+    font-size: 1.3em;
+    margin: 0;
+    text-transform: none;
+}
+
+.block-rssreader .rss-title {
+	font-weight: bold;
+}
+
+.block-rssreader li {
+    padding: 3px 0;
+}
+
+.block-rssreader .rss-text {
+	
+}
+
+.block-rssreader .rss-text a {
+	text-decoration: none;
+	display: block;
+}
+.block-rssreader .rss-text a,
+.block-rssreader .rss-text a:link,
+.block-rssreader .rss-text a:visited {
+	color: #666666;
+}
+.block-rssreader .rss-text a:hover {
+	color: #999999;
+}
+
+.block-rssreader .rss-date {
+	color: #0A263C;
+	font-size: 10px;
+	text-align: left;
+	font-weight: bold;
+}

@@ -1,0 +1,117 @@
+<!--
+/**
+* IDEALIAGroup srl
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to info@idealiagroup.com so we can send you a copy immediately.
+*
+* @category    MSP
+* @package     Chip
+* @copyright   Copyright (c) 2015 IDEALIAGroup srl (http://www.idealiagroup.com)
+* @license     http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*/
+-->
+
+.header-regular #header-nav {
+    display: none;
+}
+.header-regular #header-account {
+    display: none;
+}
+.header-regular #mini-cart-wrapper-regular {
+    display: none;
+}
+#mini-cart .count {
+    display: none;
+}
+
+.header-mobile .header-secondary-right{
+    display: none;
+}
+.header-mobile .header-secondary-left.grid12-10 {
+    width: 100%;
+}
+.header-mobile .header-secondary-left > span {
+    padding: 0 2%;
+}
+.header-mobile .header-primary {
+    padding-bottom: 0;
+}
+
+@media only screen and (min-width: 1280px) {
+    .block_header_top_left {
+        font-size: 1.4em;
+    }
+    .header-secondary-left {
+        font-size:1.8em;
+    }
+}
+@media only screen and (max-width: 959px) {
+    .header-secondary-left {
+        font-size: 1.38em;
+    }
+    .header-secondary i {
+        margin-right: 5px;
+    }
+    .header-secondary i.callcenter {
+        background-size:cover;
+        width: 22px;
+        height: 22px;
+    }
+    .header-secondary i.shipment {
+        background-size:cover;
+        width: 34px;
+        height: 18px;
+    }
+    .dropdown .dropdown-heading.cover > span {
+        padding: 0 5px;
+    }
+    #mini-cart .label {
+        padding: 0 5px;
+    }
+    #mini-cart .caret {
+        margin-right: -3px
+    }
+}
+@media only screen and (max-width: 767px) {
+    #mini-cart .count {
+        display: inline-block;
+    }
+    .header-secondary-container {
+        display: none;
+    }
+    .header-top {
+        display: none;
+    }
+
+}
+@media only screen and (max-width: 640px) {
+
+}
+
+.coupon_sconto {
+    background: #E5EFF5;
+    border: 1px solid #A0B3C6;
+    padding: 5px;
+    margin: 0 0 10px 0;
+    float: left;
+    height: 35px;
+}
+
+.coupon_sconto .coupon-intro {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.coupon_sconto .coupon-code {
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #004A97;
+}
